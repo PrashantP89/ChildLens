@@ -1,0 +1,32 @@
+:root {
+  font-family: "Inter", Arial, sans-serif;
+  color: var(--color-text);
+  background-color: #fff;
+  color-scheme: light;
+  --color-text: #0f171c;
+--color-muted: #6b787d;
+--color-brand: #0a6b5c;
+--color-brand-soft: #d6f2e8;
+}
+
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  text-align: left;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: inherit;
+  font-weight: 500;
+  color: inherit;
+}
+p {
+  margin: 0;
+}
+

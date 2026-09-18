@@ -1,0 +1,113 @@
+.app-shell {
+  display: grid;
+  grid-template-columns: 210px minmax(0, 1fr);
+  min-height: 100vh;
+}
+
+.app-shell > nav {
+  padding: 24px 15px;
+  
+}
+
+.capture-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 620px) minmax(0, 360px);
+  gap: 14px;
+  margin-top: 15px;
+}
+
+.photo-upload {
+  box-sizing: border-box;
+  min-height: 320px;
+  padding: 17px;
+  border-radius: 17px;
+  background-color: var(--color-brand-soft);
+}
+
+.photo-upload h2 {
+  margin: 0 0 9px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.photo-upload p {
+  margin-bottom: 20px;
+  font-size: 12px;
+  color: var(--color-muted);
+}
+
+.photo-upload input {
+  max-width: 100%;
+  font: inherit;
+}
+
+
+.app-shell > nav h2 {
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--color-brand);
+  margin: 0;
+}
+
+.app-shell > main {
+  padding: 28px;
+}
+.app-shell > nav ul {
+  display: grid;
+  gap: 7px;
+  list-style: none;
+  padding: 0;
+  margin: 7px 0 0;
+}
+
+.app-shell > nav li {
+  padding: 9px 10px;
+  font-size: 13px;
+  line-height: 16px;
+  border-radius: 9px;
+}
+
+.nav-item-active {
+  color: var(--color-brand);
+  background-color: var(--color-brand-soft);
+  font-weight: 700;
+}
+.app-shell > main h1 {
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0;
+  margin: 0 0 15px;
+}
+
+.page-subtitle {
+  font-size: 12px;
+  color: var(--color-muted);
+}
+
+.observation-context {
+  padding: 17px;
+}
+
+.observation-context h2 {
+  margin: 0 0 16px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.observation-context label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: var(--color-brand);
+}
+
+.observation-context textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #6b787d;
+  border-radius: 8px;
+  font: inherit;
+  resize: vertical;
+}
