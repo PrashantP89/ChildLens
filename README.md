@@ -126,4 +126,3 @@ Feedback from product reviewers, parents, pediatric professionals, privacy speci
 
 ## Ownership
 
-ChildLens AI is a product concept developed by Petsvally LLC. All rights reserved.
