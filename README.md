@@ -85,8 +85,8 @@ Prerequisites:
 - npm
 
 ```bash
-git clone https://github.com/PrashantP89/ChildLens.UI.git
-cd ChildLens.UI/web
+git clone https://github.com/PrashantP89/ChildLens.git
+cd ChildLens/web
 npm install
 npm run dev
 ```
