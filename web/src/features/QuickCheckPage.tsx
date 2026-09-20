@@ -61,7 +61,7 @@ function QuickCheckPage() {
           />
           {selectedFile && <p>Selected: {selectedFile.name}</p>}
           {fileError && (
-            <p className="error" role="alert">
+            <p className="validation-error" role="alert">
               {fileError}
             </p>
           )}
